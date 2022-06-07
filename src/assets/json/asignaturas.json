@@ -1,0 +1,59 @@
+[
+    {
+        "id":"1",
+        "Nombre":"Carlos Sepulveda",
+        "Asignatura":"Lenguaje",
+        "Email":"carlos.sepulveda@mail.colegio.cl",
+        "Imagen":"anonimo.png"
+    },
+    {
+        "id":"2",
+        "Nombre":"Alan Brito",
+        "Asignatura":"Lenguaje",
+        "Email":"alan.brito@mail.colegio.cl",
+        "Imagen":"anonimo.png"
+    },
+    {
+        "id":"3",
+        "Nombre":"Donovan Aguilar",
+        "Asignatura":"Matematica",
+        "Email":"donovan.aguilar@mail.colegio.cl",
+        "Imagen":"anonimo.png"
+    },
+    {
+        "id":"4",
+        "Nombre":"Cristian Duartes",
+        "Asignatura":"Matematica",
+        "Email":"cristian.duartes@mail.colegio.cl",
+        "Imagen":"anonimo.png"
+    },
+    {
+        "id":"5",
+        "Nombre":"Denisse Fernandez",
+        "Asignatura":"Comprension del medio",
+        "Email":"denisse.fernandez@mail.colegio.cl",
+        "Imagen":"anonimo.png"
+    },
+    {
+        "id":"6",
+        "Nombre":"Angelo Ortiz",
+        "Asignatura":"Comprension del medio",
+        "Email":"angelo.ortiz@mail.colegio.cl",
+        "Imagen":"anonimo.png"
+    },
+    {
+        "id":"7",
+        "Nombre":"Jalid Danoun",
+        "Asignatura":"Ciencias sociales",
+        "Email":"jalid.danoun@mail.colegio.cl",
+        "Imagen":"anonimo.png"
+    },
+    {
+        "id":"8",
+        "Nombre":"Karen Meredith",
+        "Asignatura":"Ciencias sociales",
+        "Email":"karen.meredith@mail.colegio.cl",
+        "Imagen":"anonimo.png"
+    }
+    
+]

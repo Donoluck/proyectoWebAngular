@@ -1,0 +1,29 @@
+<!--Barra de navegacion-->
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+  <img src="../../assets/logo_web.png" height="40px" width="40px">
+  <li ngbNavItem>
+    <a ngbNavLink [routerLink]="['/']">Inicio</a>
+    <ng-template ngbNavContent></ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink [routerLink]="['/contacto']">Contacto</a>
+    <ng-template ngbNavContent></ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink [routerLink]="['/historia']">Historia</a>
+    <ng-template ngbNavContent></ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink [routerLink]="['/cursos']">Cursos</a>
+    <ng-template ngbNavContent></ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink [routerLink]="['/galeria']">Galería</a>
+    <ng-template ngbNavContent></ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink [routerLink]="['/asignaturas']">Departamentos</a>
+    <ng-template ngbNavContent></ng-template>
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav"></div>

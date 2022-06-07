@@ -1,0 +1,52 @@
+<div id="background">
+<div *ngIf="!activarMsg">
+  <form [formGroup]="formulario" (ngSubmit)="validacion()" novalidate>
+      <ul> 
+        <li>
+           <label>Nombre Completo:</label>
+           <input type="text"  formControlName="nombre" placeholder="Nombre Completo">
+           <div *ngIf="formulario.controls['nombre'].invalid && (formulario.controls['nombre'].dirty || formulario.controls['nombre'].touched)" class="alert alert-danger">
+              <div *ngIf="formulario.controls['nombre'].hasError('required')">
+                Campo obligatorio
+              </div>
+              <div *ngIf="formulario.controls['nombre'].hasError('maxlength')">
+                el máximo de caracteres es 25
+              </div>
+           </div>
+         </li>
+        <li>  
+          <label>Asunto:</label>
+          <input type="text" formControlName="asunto" placeholder="Asunto">
+          <div *ngIf="formulario.controls['asunto'].invalid && (formulario.controls['asunto'].dirty || formulario.controls['asunto'].touched)" class="alert alert-danger">
+            <div *ngIf="formulario.controls['asunto'].hasError('required')">
+              Campo obligatorio
+              </div>
+              <div *ngIf="formulario.controls['asunto'].hasError('maxlength')">
+                el máximo de caracteres es 20
+              </div>
+            </div>
+        </li>
+        <li>
+         <label>Comentarios:</label>
+         <textarea formControlName="comentarios" cols="10"  rows="10"></textarea>
+         <div *ngIf="formulario.controls['asunto'].invalid && (formulario.controls['asunto'].dirty || formulario.controls['asunto'].touched)" class="alert alert-danger">
+          <div *ngIf="formulario.controls['asunto'].hasError('required')">
+            Campo obligatorio
+            </div>
+         </div>
+        </li>
+
+        <li>
+           <button type="submit" [disabled]="!formulario.valid">Enviar Datos</button>
+        </li>
+      </ul>
+
+   </form>
+ </div>
+
+ <div id="mensaje" *ngIf="activarMsg">
+    <h2>Tus Datos Fueron Enviados Con Exito</h2><br>
+     <img src="../../assets/happy-student.png" height="500px" width="500px">
+ </div>
+</div>
+ 

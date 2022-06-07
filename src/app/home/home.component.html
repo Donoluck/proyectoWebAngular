@@ -1,0 +1,61 @@
+<hr>
+<h2>Bienvenidos <br> Salesiano College</h2>
+<hr>
+<h2>Ilustraciones del Establecimiento</h2><br>
+
+<!--carousel-->
+<div class="container-fluid">
+  <ngb-carousel>
+    <ng-template ngbSlide *ngFor="let image of images">
+      <div class="wrapper">
+        <img [src]="image.src" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>{{ image.title }}</h3>
+        <p>{{ image.short }}</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  </div>
+
+ <hr>
+ <h2>Ultimas Noticias 2022</h2><br>
+
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="../../assets/4.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Primer dia de clases</h5>
+        <p class="card-text">El dia 3 de Marzo se dio inicio al año escolar, con un evento de bienvenida en el gimnasio del colegio donde asistieron todos los alumnos de la escuela junto a sus profesores.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Autor: Paula Rojas </small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../../assets/5.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Remodelacion del Patio Interior</h5>
+        <p class="card-text">Se han completado las remodelaciones que se iniciaron el año 2021 en el patio interior del colegio. Estas remodelaciones incluyen nuevas areas verdes, complementos para la practica de deportes y una repasada de pintura a los edificios que presentaban desgaste en sus estructuras.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Autor: Alejandro Reyes</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../../assets/1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pabellon Basica</h5>
+        <p class="card-text">En vista de los incidentes ocurridos alrededor de los pabellones de basica, se ha empezado una nueva remodelacion de estos que quedaron maltratados luego de la ultima protesta estudiantil.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Autor: Margarita Fredes</small>
+      </div>
+    </div>
+  </div>
+</div>

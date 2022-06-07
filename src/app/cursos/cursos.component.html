@@ -1,0 +1,22 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Edad</th>
+        <th scope="col">Curso</th>
+        <th scope="col">Profesor Encargado</th>
+        <th scope="col">Promedio de Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let alumno of Alumnos">
+        <th scope="row">{{alumno.id}}</th>
+        <td>{{alumno.nombre}}</td>
+        <td>{{alumno.edad}}</td>
+        <td>{{alumno.curso}}</td>
+        <td>{{alumno.profesor}}</td>
+        <td>{{alumno.promedio}}</td>
+      </tr>
+    </tbody>
+  </table>

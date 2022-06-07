@@ -1,0 +1,51 @@
+ 
+[
+    {
+      "id":"1",
+      "nombre":"Eduardo Cárdenas",
+      "edad":"10",
+      "curso":"4-A",
+      "profesor":"Donovan Aguilar",
+      "promedio":"68"
+    },
+    {
+      "id":"2",
+      "nombre":"Lucas Miranda",
+      "edad":"11",
+      "curso":"4-A",
+      "profesor":"Donovan Aguilar",
+      "promedio":"52"
+    },
+    {
+      "id":"3",
+      "nombre":"María Campos",
+      "edad":"10",
+      "curso":"4-A",
+      "profesor":"Donovan Aguilar",
+      "promedio":"70"
+    },
+    {
+      "id":"4",
+      "nombre":"Marcela Mayta",
+      "edad":"11",
+      "curso":"4-B",
+      "profesor":"Jalid Danoun",
+      "promedio":"60"
+    },
+    {
+      "id":"5",
+      "nombre":"Felipe Escudero",
+      "edad":"11",
+      "curso":"4-B",
+      "profesor":"Jalid Danoun",
+      "promedio":"69"
+    },
+    {
+      "id":"6", 
+      "nombre":"Rocío Escobar",
+      "edad":"10",
+      "curso":"4-B",
+      "profesor":"Jalid Danoun",
+      "promedio":"40"
+    }
+ ]
